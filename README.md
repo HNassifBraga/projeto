@@ -1,2 +1,2 @@
-"My first site"
-<Henrique Nassif Braga>
+"An example of simple and basic HTML and CSS"
+Created by Henrique Nassif Braga.
