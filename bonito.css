@@ -1,0 +1,126 @@
+body
+{
+    font-family:Arial, sans-serif ;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+header
+{
+    background-color:lightgray;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1
+{
+    margin: 0;
+    font-size: 2em;
+}
+
+nav ul.links
+{
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+nav ul.links li
+{
+    display: block;
+    margin: 0 15px;
+}
+
+nav ul.links li a{
+    text-decoration: none;
+    color: blue;
+}
+
+main
+{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.outerblock
+{
+    display:flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: darkgray;
+}
+
+.article, .projects
+{
+    background-color: lightgray;
+    color: black;
+    padding: 20px;
+    border: 2px solid gold;
+    box-sizing: border-box;
+}
+
+.article
+{
+    flex: 2;
+    margin-right: 20px;
+}
+
+.projects
+{
+    flex: 1;
+}
+
+.image
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.imagem1
+{
+    height: 150px;
+    width: 150px;
+    border: 2px solid gold; /* Gold border */
+    box-sizing: border-box; /* Ensure padding and border are included in dimensions */
+    margin: 20px;
+}
+.imagem2
+{
+    height: 150px;
+    width: 150px;
+    border: 2px solid gold; /* Gold border */
+    box-sizing: border-box; /* Ensure padding and border are included in dimensions */
+    margin: 20px;
+}
+.imagem3
+{
+    height: 150px;
+    width: 150px;
+    border: 2px solid gold; /* Gold border */
+    box-sizing: border-box; /* Ensure padding and border are included in dimensions */
+    margin: 20px;
+}
+
+footer
+{
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer p
+{
+    margin: 0;
+    font-size: small;
+}
+
+footer p a 
+{
+    color:blue;
+    text-decoration: none;
+}
